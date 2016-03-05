@@ -62,7 +62,7 @@ public class WhenTheUserEntersAnInitialGrid {
     public void userShouldBeAbleToEnterOneLiveCellInTheGrid() {
         player.opens_home_page();
         player.chooses_to_start_a_new_game();
-        player.clicks_on_cell_at(1, );
+        player.clicks_on_cell_at(1,1 );
         player.starts_simulation();
 
         String[][] expectedGrid = new String[][]{{".", ".", "."},
